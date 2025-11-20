@@ -6,5 +6,8 @@
     "build": "tree-sitter generate",
     "prestart": "tree-sitter build --wasm",
     "start": "tree-sitter playground"
+  },
+  "dependencies": {
+    "tree-sitter-cli": "0.24.7"
   }
 }
