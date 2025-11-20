@@ -45,3 +45,7 @@ zig-out/
 *.tar.gz
 *.tgz
 *.zip
+
+node_modules
+bindings/c/*.h
+bindings/c/tree-sitter-*.pc
